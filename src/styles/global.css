@@ -1,0 +1,37 @@
+@import './variables.css';
+@import './fonts.css';
+
+/* Сброс стилей и базовые настройки */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-root);
+}
+
+body {
+  font-family: var(--font-root);
+  font-size: var(--text-p);
+  font-weight: var(--font-regular);
+  line-height: 1.5;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+/* Базовые стили для заголовков */
+h1, h2, h3, h4 {
+  font-family: var(--font-root);
+  font-weight: var(--font-medium);
+}
+
+h1 { font-size: var(--text-h1); }
+h2 { font-size: var(--text-h2); }
+h3 { font-size: var(--text-h3); }
+h4 { font-size: var(--text-h4); }
+
+p {
+  font-family: var(--font-root);
+  font-weight: var(--font-regular);
+  font-size: var(--text-p);
+}
+

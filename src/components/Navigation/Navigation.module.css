@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+
+.navigation__link__header {
+  text-decoration: none;
+  font-size: var(--text-label);
+  color: var(--color-black);
+}   
+
+.navigation__link__footer {
+  font-size: var(--text-p);
+  color: var(--color-white);
+}
+
+.navigation__item {
+  list-style: none;
+}
+
